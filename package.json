@@ -2,7 +2,7 @@
   "name": "StokvelApp",
   "version": "1.0.0",
   "description": "",
-  "main": ".server.js",
+  "main": "server.js",
   "engines": {
     "node": " v12.16.2"
   },
