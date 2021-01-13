@@ -1,0 +1,8 @@
+{
+    "localDatabase": {
+        "user": "sa",
+        "password": "Madala01",
+        "server": "localhost",
+        "database": "Stokvel_Members"
+    }
+}

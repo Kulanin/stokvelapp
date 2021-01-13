@@ -1,0 +1,33 @@
+{
+  "name": "StokvelApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "start": "node server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"nodemon server.js\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "bootstrap": "^4.5.3",
+    "bootstrap-css-only": "^4.4.1",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "history": "^5.0.0",
+    "mongoose": "^5.11.11",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "react-bootstrap": "^1.4.3",
+    "react-modal": "^3.12.1"
+  }
+}
